@@ -451,8 +451,7 @@ span {
   background: url("image/Newworld.png");
   background-size: cover;
   background-position: center;
- }
-
+}
 
 .Journey .Journey-row {
   display: flex;
@@ -539,7 +538,7 @@ span {
   padding: 0.5rem;
 }
 
-.Allies {
+.Partner {
   min-height: auto;
   padding-bottom: 7rem;
   background: url("image/Allieswall.png");
@@ -547,23 +546,23 @@ span {
   background-position: center;
 }
 
-.Allies .Allies-row {
+.Partner .Partner-row {
   display: flex;
   flex-wrap: wrap;
   gap: 5rem;
 }
 
-.Allies-row .Allies-column {
+.Partner-row .Partner-column {
   flex: 1 1 40rem;
 }
 
-.Allies-column .title {
+.Partner-column .title {
   font-size: 2.5rem;
   margin: 0 0 1.5rem;
   color: white;
 }
 
-.Allies-box .Allies-content {
+.Partner-box .Partner-content {
   position: relative;
   border: 0.2rem solid darkblue;
   border-radius: 0.6rem;
@@ -572,7 +571,7 @@ span {
   overflow: hidden;
 }
 
-.Allies-box .Allies-content::before {
+.Partner-box .Partner-content::before {
   content: "";
   position: absolute;
   top: 0;
@@ -585,26 +584,26 @@ span {
   transition: 0.5s;
 }
 
-.Allies-box .Allies-content:hover::before {
+.Partner-box .Partner-content:hover::before {
   width: 100%;
 }
 
-.Allies-content .progress {
+.Partner-content .progress {
   padding: 1rem 0;
 }
 
-.Allies-content .progress h3 {
+.Partner-content .progress h3 {
   font-size: 1.7rem;
   display: flex;
   justify-content: space-between;
   color: white;
 }
 
-.Allies-content .progress h3 span {
+.Partner-content .progress h3 span {
   color: white;
 }
 
-.Allies-content .progress .bar {
+.Partner-content .progress .bar {
   height: 2.5rem;
   border-radius: 0.6rem;
   border: 0.2rem solid darkblue;
@@ -612,42 +611,42 @@ span {
   margin: 1rem 0;
 }
 
-.Allies-content .progress .bar span {
+.Partner-content .progress .bar span {
   display: block;
   height: 100%;
   border-radius: 3rem;
   background: black;
 }
 
-.Allies-column:nth-child(1) .Allies-content .progress:nth-child(1) .bar span {
+.Partner-column:nth-child(1) .Partner-content .progress:nth-child(1) .bar span {
   width: 100%;
 }
 
-.Allies-column:nth-child(1) .Allies-content .progress:nth-child(2) .bar span {
+.Partner-column:nth-child(1) .Partner-content .progress:nth-child(2) .bar span {
   width: 100%;
 }
 
-.Allies-column:nth-child(1) .Allies-content .progress:nth-child(3) .bar span {
+.Partner-column:nth-child(1) .Partner-content .progress:nth-child(3) .bar span {
   width: 100%;
 }
 
-.Allies-column:nth-child(1) .Allies-content .progress:nth-child(4) .bar span {
+.Partner-column:nth-child(1) .Partner-content .progress:nth-child(4) .bar span {
   width: 100%;
 }
 
-.Allies-column:nth-child(2) .Allies-content .progress:nth-child(1) .bar span {
+.Partner-column:nth-child(2) .Partner-content .progress:nth-child(1) .bar span {
   width: 100%;
 }
 
-.Allies-column:nth-child(2) .Allies-content .progress:nth-child(2) .bar span {
+.Partner-column:nth-child(2) .Partner-content .progress:nth-child(2) .bar span {
   width: 100%;
 }
 
-.Allies-column:nth-child(2) .Allies-content .progress:nth-child(3) .bar span {
+.Partner-column:nth-child(2) .Partner-content .progress:nth-child(3) .bar span {
   width: 100%;
 }
 
-.Allies-column:nth-child(2) .Allies-content .progress:nth-child(4) .bar span {
+.Partner-column:nth-child(2) .Partner-content .progress:nth-child(4) .bar span {
   width: 100%;
 }
 
@@ -659,7 +658,9 @@ button {
 .contact {
   min-height: auto;
   padding-bottom: 7rem;
-  background-color: transparent;
+  background: url("image/Contact.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .contact form {
