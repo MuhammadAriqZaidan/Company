@@ -27,7 +27,7 @@ body {
   left: 0;
   width: 100%;
   padding: 2rem 9%;
-  background: blue;
+  background: #7DCAC7;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -88,7 +88,7 @@ body {
 .btn {
   padding: 1rem 1.5rem;
   background: transparent;
-  border: 1.5px solid darkblue;
+  border: 1.5px solid #3AAFA9;
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
@@ -144,7 +144,7 @@ section {
   font-weight: 700;
   color: transparent;
   z-index: 7;
-  -webkit-text-stroke: 1.7px darkblue;
+  -webkit-text-stroke: 1.7px #3AAFA9;
 }
 
 .home-content h3::before {
@@ -207,8 +207,8 @@ section {
   align-items: center;
   width: 170px;
   height: 100%;
-  background: darkblue;
-  border: 2px solid darkblue;
+  background: #3AAFA9;
+  border: 2px solid #3AAFA9;
   border-radius: 8px;
   font-size: 17px;
   text-decoration: none;
@@ -235,7 +235,7 @@ section {
 }
 
 .btn-box .btn:nth-child(2)::before {
-  background: darkblue;
+  background: #3AAFA9;
 }
 
 .btn-box .btn::before {
@@ -282,10 +282,10 @@ section {
   width: 40px;
   height: 40px;
   background: transparent;
-  border: 2px solid darkblue;
+  border: 2px solid #3AAFA9;
   border-radius: 50%;
   font-size: 20px;
-  color: darkblue;
+  color: #3AAFA9;
   text-decoration: none;
   z-index: 1;
   overflow: hidden;
@@ -303,7 +303,7 @@ section {
   left: 0;
   width: 0;
   height: 100%;
-  background: darkblue;
+  background: #3AAFA9;
   z-index: -1;
   transition: 0.5s;
 }
@@ -365,14 +365,14 @@ section {
   font-size: 5rem;
   margin-bottom: 3rem;
   text-align: center;
-  color: darkblue;
+  color: #3AAFA9;
 }
 
 .heading2 {
   font-size: 5rem;
   margin-bottom: 3rem;
   text-align: center;
-  color: darkblue;
+  color: #3AAFA9;
 }
 
 .heading3 {
@@ -398,7 +398,7 @@ span {
 .about-img img {
   width: 100;
   border-radius: 50%;
-  /* border: 0.2rem solid darkblue; */
+  /* border: 0.2rem solid #3AAFA9; */
 }
 
 .about-img .circle-spin {
@@ -409,10 +409,10 @@ span {
   width: 100%;
   height: 100%;
   /* border-radius: 50%; */
-  /* border-top: 0.2rem solid blue; */
-  /* border-bottom: 0.2rem solid blue; */
-  /* border-left: 0.2rem solid darkblue; */
-  /* border-right: 0.2rem solid darkblue; */
+  /* border-top: 0.2rem solid #7DCAC7; */
+  /* border-bottom: 0.2rem solid #7DCAC7; */
+  /* border-left: 0.2rem solid #3AAFA9; */
+  /* border-right: 0.2rem solid #3AAFA9; */
 }
 
 .about-content {
@@ -436,7 +436,7 @@ span {
 }
 
 .btn-box.btns a::before {
-  background: blue;
+  background: #7DCAC7;
 }
 
 /* Journey */
@@ -469,7 +469,7 @@ span {
 }
 
 .Journey-column .Journey-box {
-  border-left: 0.3rem solid darkblue;
+  border-left: 0.3rem solid #3AAFA9;
 }
 
 .Journey-box .Journey-content {
@@ -484,14 +484,14 @@ span {
   left: -1.1rem;
   width: 2rem;
   height: 2rem;
-  background: darkblue;
+  background: #3AAFA9;
   border-radius: 50%;
 }
 
 .Journey-content .content {
   position: relative;
   padding: 1.5rem;
-  border: 0.2rem solid darkblue;
+  border: 0.2rem solid #3AAFA9;
   border-radius: 0.6rem;
   margin-bottom: 2rem;
   overflow: hidden;
@@ -499,7 +499,7 @@ span {
 }
 
 .Journey-content .content :hover {
-  color: white;
+  
   transition: 0.2s;
 }
 
@@ -510,7 +510,7 @@ span {
   left: 0;
   width: 0;
   height: 100%;
-  background-color: blue;
+  background-color: #7DCAC7;
   transition: 0.5s;
   z-index: -1;
 }
@@ -521,7 +521,7 @@ span {
 
 .Journey-content .content .year {
   font-size: 1.5rem;
-  color: darkblue;
+  color: black;
   padding-bottom: 0.5rem;
 }
 
@@ -541,7 +541,7 @@ span {
 .Partner {
   min-height: auto;
   padding-bottom: 7rem;
-  background: url("image/Allieswall.png");
+  background: url("image/WllPartner.png");
   background-size: cover;
   background-position: center;
 }
@@ -559,12 +559,12 @@ span {
 .Partner-column .title {
   font-size: 2.5rem;
   margin: 0 0 1.5rem;
-  color: white;
+  color: black;
 }
 
 .Partner-box .Partner-content {
   position: relative;
-  border: 0.2rem solid darkblue;
+  border: 0.2rem solid #3AAFA9;
   border-radius: 0.6rem;
   padding: 0.5rem 1.5rem;
   z-index: 1;
@@ -596,17 +596,17 @@ span {
   font-size: 1.7rem;
   display: flex;
   justify-content: space-between;
-  color: white;
+  color: black;
 }
 
 .Partner-content .progress h3 span {
-  color: white;
+  color: black;
 }
 
 .Partner-content .progress .bar {
   height: 2.5rem;
   border-radius: 0.6rem;
-  border: 0.2rem solid darkblue;
+  border: 0.2rem solid #3AAFA9;
   padding: 0.5rem;
   margin: 1rem 0;
 }
@@ -691,7 +691,7 @@ button {
   color: black;
   background: transparent;
   border-radius: 0.6rem;
-  border: 0.2rem solid darkblue;
+  border: 0.2rem solid #3AAFA9;
 }
 
 .contact form .input-box .input-field input ::placeholder,
@@ -751,12 +751,12 @@ button {
   align-items: center;
   flex-wrap: wrap;
   padding: 2rem 9%;
-  background: blue;
+  background: #7DCAC7;
 }
 
 .footer-text p {
   font-size: 1.6rem;
-  color: white;
+  color: black;
 }
 
 .footer-iconTop a {
@@ -765,8 +765,8 @@ button {
   justify-content: center;
   align-items: center;
   padding: 0.8rem;
-  background: darkblue;
-  border: 0.2rem solid darkblue;
+  background: #3AAFA9;
+  border: 0.2rem solid #3AAFA9;
   border-radius: 0.6rem;
   text-decoration: none;
   z-index: 1;
@@ -781,7 +781,7 @@ button {
   left: 0;
   width: 0;
   height: 100%;
-  background: blue;
+  background: #7DCAC7;
   z-index: -1;
   transition: 0.5s;
 }
@@ -792,7 +792,7 @@ button {
 
 .footer-iconTop a i {
   font-size: 2.4rem;
-  color: white;
+  color: black;
   transition: 0.5s;
 }
 
